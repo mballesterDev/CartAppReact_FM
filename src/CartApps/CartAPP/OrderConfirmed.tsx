@@ -9,7 +9,7 @@ export const OrderConfirmed = ({ order, onNewOrder }: Props) => {
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/50 sm:items-center">
       <div className="flex w-full max-w-lg flex-col gap-6 rounded-t-xl bg-white p-6 text-left sm:rounded-xl sm:p-10">
-        <img src="/images/icon-order-confirmed.svg" alt="" className="h-12 w-12" />
+        <img src="images/icon-order-confirmed.svg" alt="" className="h-12 w-12" />
 
         <div>
           <h2 className="m-0 text-4xl font-bold text-[#260F08]">Order Confirmed</h2>

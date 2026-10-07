@@ -32,7 +32,7 @@ export const CartCheckOut = () => {
                   onClick={() => onRemove(producto)}
                   className="flex h-5 w-5 cursor-pointer items-center justify-center rounded-full border border-[#AD8A85] bg-transparent p-0 transition-colors hover:border-[#260F08]"
                 >
-                  <img src="/images/icon-remove-item.svg" alt="" className="h-2.5 w-2.5" />
+                  <img src="images/icon-remove-item.svg" alt="" className="h-2.5 w-2.5" />
                 </button>
               </li>
             ))}
@@ -44,7 +44,7 @@ export const CartCheckOut = () => {
           </div>
 
           <div className="flex items-center justify-center gap-2 rounded-lg bg-[#FCF8F6] p-4 text-sm text-[#260F08]">
-            <img src="/images/icon-carbon-neutral.svg" alt="" />
+            <img src="images/icon-carbon-neutral.svg" alt="" />
             <p>
               This is a <span className="font-semibold">carbon-neutral</span> delivery
             </p>
@@ -60,7 +60,7 @@ export const CartCheckOut = () => {
         </>
       ) : (
         <div className="flex flex-col items-center gap-4 py-6">
-          <img src="/images/illustration-empty-cart.svg" alt="" />
+          <img src="images/illustration-empty-cart.svg" alt="" />
           <p className="text-sm font-semibold text-[#87635A]">Your added items will appear here</p>
         </div>
       )}
